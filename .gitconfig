@@ -5,3 +5,5 @@
 	gist = log --oneline --graph
 [core]
 	editor = subl -n -w
+[credential]
+	helper = cache
