@@ -1,0 +1,7 @@
+[user]
+	email = soohyung@hotmail.com
+	name = Soo Hyung Lee
+[alias]
+	gist = log --oneline --graph
+[core]
+	editor = subl -n -w
