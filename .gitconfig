@@ -2,7 +2,7 @@
 	email = soohyung@hotmail.com
 	name = Soo Hyung Lee
 [alias]
-	gist = log --oneline --graph
+	gist = log --oneline --graph --all --decorate --date-order -30
 [core]
 	editor = subl -n -w
 	pager = cat
