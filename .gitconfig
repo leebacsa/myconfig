@@ -6,5 +6,6 @@
 [core]
 	editor = subl -n -w
 	pager = cat
+	excludesfile = /Users/soo/.config/myconfig/.gitignore
 [credential]
 	helper = cache
