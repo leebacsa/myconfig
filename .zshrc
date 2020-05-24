@@ -99,7 +99,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # added by Anaconda3 installer
-export PATH="$HOME/anaconda3/bin:$PATH"
+# export PATH="/anaconda3/bin:$PATH"  # commented out by conda initialize
 
 # Android settings
 export JAVA_HOME="$(/usr/libexec/java_home -v1.8)"
@@ -108,3 +108,22 @@ export PATH="$PATH:$ANDROID_HOME/emulator"
 export PATH="$PATH:$ANDROID_HOME/tools"
 export PATH="$PATH:$ANDROID_HOME/tools/bin"
 export PATH="$PATH:$ANDROID_HOME/platform-tools"
+
+# Garmin Connect IQ SDK
+export PATH="$PATH:$HOME/opt/connectiq-sdk-mac-3.1.8/bin"
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/Users/soo/opt/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/Users/soo/opt/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/Users/soo/opt/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/Users/soo/opt/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
